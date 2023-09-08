@@ -1307,3 +1307,9 @@ section {
 #footer .credits a {
   color: #34b7a7;
 }
+
+
+.empty-div {
+  height: 25px; /* Adjust the height to your desired value */
+  background-color: #ffffff; /* Optional: Add a background color for visibility */
+}
