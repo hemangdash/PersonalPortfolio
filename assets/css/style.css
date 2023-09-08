@@ -1308,8 +1308,15 @@ section {
   color: #34b7a7;
 }
 
-
 .empty-div {
   height: 25px; /* Adjust the height to your desired value */
   background-color: #ffffff; /* Optional: Add a background color for visibility */
+}
+
+.swiper-slide img {
+  max-width: 70%; /* Set a maximum width to fit the container */
+  max-height: 100%; /* Set a maximum height to fit the container */
+  display: block; /* Remove any extra spacing below the image */
+  margin: 0 auto; /* Center-align the image horizontally */
+  padding: 3%;
 }
